@@ -14,7 +14,6 @@ Each vulnerability type code has a security vulnerability by default unless ther
 [Online demo](http://118.25.15.216:8080)
 
 Login username & password:
-
 ```
 admin/admin123
 joychou/joychou123
