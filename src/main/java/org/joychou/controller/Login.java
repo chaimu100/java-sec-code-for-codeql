@@ -27,7 +27,7 @@ public class Login {
     @GetMapping("/logout")
     public String logoutPage(HttpServletRequest request, HttpServletResponse response) {
 
-        String username = request.getUserPrincipal().getName();
+        String username = "UserName"; //request.getUserPrincipal().getName();
 
         Authentication auth = SecurityContextHolder.getContext().getAuthentication();
         if (auth != null) {
